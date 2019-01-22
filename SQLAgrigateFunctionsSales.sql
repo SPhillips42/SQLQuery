@@ -1,0 +1,1 @@
+select format(sum(sales), 'c') as 'Total Sales', format(avg(sales), 'C') as 'Average', format(min(sales), 'C') as 'Lowest Sale', format(max(sales), 'C') as 'Biggest Sale', count(sales) as 'Total Sales' from customers;
