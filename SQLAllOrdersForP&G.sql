@@ -1,0 +1,1 @@
+select * from customers c join orders o on o.customerid = c.id where name = 'P&G';
